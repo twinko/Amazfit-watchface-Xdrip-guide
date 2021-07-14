@@ -2,4 +2,4 @@
 
 
 01-WF MD225
-![Screenshot](01-WF MD225/Preview.gif)
+![Screenshot](https://raw.githubusercontent.com/twinko/GTR-2-WF-Xdrip-EN/main/01-WF%20MD225/Preview.gif)
