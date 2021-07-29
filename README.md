@@ -28,6 +28,14 @@ If you are not creating your own watchface, you can have alook for watchfaces he
 
 **Something very important:** The smaller the watchface the better. That means less icons, less changing things (excluding numbers, and yes only numbers). Avoide watchfaces with gradients, when one color shifts to another. 
 
+.
+.
+.
+.
+.
+.
+.
+
 ## Switch to another file
 
 All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
