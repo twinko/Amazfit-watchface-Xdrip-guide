@@ -5,8 +5,8 @@ This guide focus on adapting an existing watchface to our need. If you are creat
 
 Please remember this guide is only for **GTR 2e**! A lot of things are similiar for different watches especially the GTR 2 and GTS 2(e). If you using this guide to create watchfaces for different watches please send text snipets via issue to help this guide suite different watches aswell. 
 
-Main credit goes to Artem Kovalenko who made Amazfit GTR2, GTR2e, GTS2, GTS2e, GTR42, Bip, BIP S and GTR 47 possible!
-Please support him here: https://www.patreon.com/xdrip_miband
+Main credit goes to **Artem Kovalenko** who made Amazfit GTR2, GTR2e, GTS2, GTS2e, GTR42, Bip, BIP S and GTR 47 possible! Moreover he helped me a lot to create my first own watchface.
+#### Please support him here: https://www.patreon.com/xdrip_miband
 You can read more about his projects regarding xdrip here: https://bigdigital.home.blog/
 
 Moreover thanks to:
@@ -19,7 +19,7 @@ Moreover thanks to:
 I'll use the following tools. You will need all of them. All of the tools below are free for personl use.
 
 1. Windows OS
-2. **WF editor**: [AmazFit WatchFace editor 2 for Windows](https://amazfitwatchfaces.com/forum/viewtopic.php?p=8392#p8392)
+2. **WFE**: [AmazFit WatchFace editor 2 for Windows](https://amazfitwatchfaces.com/forum/viewtopic.php?p=8392#p8392)
 3. **PS**: Photoshop (Version CS2 is available for free) I only have a german link, but you should be able to dowenload it for free, no need for scetchy downloads. https://www.chip.de/downloads/Photoshop-CS2-kostenlos-Vollversion_59762951.html
 4. **WF**: A watchface. (next chapter)
 
@@ -37,8 +37,25 @@ Donwload the desired file. Please watch care about the watch the watchface was m
 
 # Guide / Tutorial
 
-Open up the
+1. Download the whole folder of the latest version of the WFE (watchface editor), linked above. 
+2. You can find the "download" buttom in the top right, we need the whole folder! 
+3. After clicking download choose "direct download". It will download a file like "AmazFit_Watchface_Editor_2_v5.1.zip".
+4. Extract the file
+5. Open (in my case) "AmazFit_Watchface_Editor_2"
+6. start "AmazFit_Watchface_Editor_2.exe"
+7. 
 
+
+
+
+
+To learn more about the watchface editor and its possibilities, have a look here: https://amazfitwatchfaces.com/forum/viewtopic.php?f=14&t=1571
+Direct link to english translation:  https://translate.google.com/translate?hl=ru&sl=ru&tl=en&u=https%3A%2F%2Fowagner.ru%2Famazfitgtr%2Fwfcreator%2Fwatchfaces_creator_lesson%2F
+
+## Rename a file
+## Rename a file
+## Rename a file
+## Rename a file
 ## Rename a file
 
 You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
