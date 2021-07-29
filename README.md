@@ -14,31 +14,30 @@ Moreover thanks to:
  - [**SashaCX75**](https://amazfitwatchfaces.com/forum/memberlist.php?mode=viewprofile&u=113690) helped creating the watchfaceditor 
  - all watchface creator
 
-# Things you need
+## Things you need
 
 I'll use the following tools. You will need all of them. All of the tools below are free for personl use.
 
 1. Windows OS
-2.  [AmazFit WatchFace editor 2 for Windows](https://amazfitwatchfaces.com/forum/viewtopic.php?p=8392#p8392)
-3. Photoshop (Version CS2 is available for free) I only have a german link, but you should be able to dowenload it for free, no need for scetchy downloads. https://www.chip.de/downloads/Photoshop-CS2-kostenlos-Vollversion_59762951.html
+2. **WF editor**: [AmazFit WatchFace editor 2 for Windows](https://amazfitwatchfaces.com/forum/viewtopic.php?p=8392#p8392)
+3. **PS**: Photoshop (Version CS2 is available for free) I only have a german link, but you should be able to dowenload it for free, no need for scetchy downloads. https://www.chip.de/downloads/Photoshop-CS2-kostenlos-Vollversion_59762951.html
+4. **WF**: A watchface. (next chapter)
 
 ## Look for a watchface you would like to use
 
 If you are not creating your own watchface, you can have alook for watchfaces here: https://amazfitwatchfaces.com/gtr/top?compatible=GTR_2
+Donwload the desired file. Please watch care about the watch the watchface was made for.
 
-**Something very important:** The smaller the watchface the better. That means less icons, less changing things (excluding numbers, and yes only numbers). Avoide watchfaces with gradients, when one color shifts to another. 
+**Something very important:** 
 
-.
-.
-.
-.
-.
-.
-.
+ - The smaller the watchface the better. We'll come to this later but all pictures inlcuding the json file should'nt be bigger than 40kb. 
+ - That means less icons, less changing things (excluding numbers, and yes only numbers). 
+ - Avoide watchfaces with gradients (when one color shifts to another). 
+ - Remember we want to be able to easily read our Blood Glucose (BG), so we need to make some free space somewhere. I would calculate at least 1/3 of the watchface dedicated to all xdrip related information
 
-## Switch to another file
+# Guide / Tutorial
 
-All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
+Open up the
 
 ## Rename a file
 
