@@ -52,19 +52,22 @@ Direct link to english translation:  https://translate.google.com/translate?hl=r
 11. Go to the "Edit" tab and click throught the different options on the right side. 
 12. Choose "Layer order" to define things like the date order (dd-mm-yy or mm-dd-yy).
 
-Important hint:
-Our most important goal is to reduce size. As written above we want to get below 50kb raw png files (inlcuding .json) .
-
-Best way to reduce size:
-- less pictures
-- less colors (makes smaller picture files)
-- use system font (a setting in the edit tab of WFE wherever it shows numbers.)
+> **Important hint:** 
+> Our most important goal is to reduce size. As written
+> above we want to get below 50kb raw png files (inlcuding .json) .
+> 
+> Best way to reduce size:
+> - less pictures
+> - less colors (makes smaller picture files)
+> - use system font (a setting in the edit tab of WFE wherever it shows numbers.)
 
 13. When you are done with your changes, save the watchface ("Edit" tab, bottom in the middel "save Json")
 
-Things thet helped me a lot:
-- have a look at the unpacked pictures, delete all the ones you dont need.
-- You need to rename the files from 0001- xxxx You will have problems later if the files are not in a row. Its not possible to have one number in between missing. It should look like: 0001, 0002, ...... 0015.) You can use https://www.bulkrenameutility.co.uk/Download.php to bulk rename files.
+> **Things thet helped me a lot:**
+> - have a look at the unpacked pictures, delete all the ones you dont need.
+> - You need to rename the files from 0001- xxxx You will have problems later if the files are not in a row. Its not possible to have one
+> number in between missing. It should look like: 0001, 0002, ......
+> 0015.) You can use https://www.bulkrenameutility.co.uk/Download.php to bulk rename files.
 
 14. Go to the folder including the json and all needed files on your computer.
 15. Make a backup of th existing files and json
@@ -73,6 +76,7 @@ Things thet helped me a lot:
 18. In the new Window you should choose the following on the right side:
 	- png-8
 	- You can tinker a little bit and delete specific colors, that will reduce the size of the image even more. You can see the new file size in the bottem right
-19. Save the file by overwriting (you made a backup earlier)
+	- Files need to be png! 
+19. Save the file by overwriting (you made a backup earlier). I didnt found a way to do it to all files at once, let me know if you know how.
 20. 
 
