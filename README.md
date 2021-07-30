@@ -33,7 +33,7 @@ Donwload the desired file. Please care about the watch the watchface was made fo
 **Something very important:** 
 
  - The smaller the watchface the better. We'll come to this later but all pictures inlcuding the json file should'nt be bigger than 50kb. 
- - 50kb watchface size (raw pictures and the json) will result in a uploadtime of about 10 seconds and you dont want it to take it longer, because of battery life and you dont want to wait untill tomorrow.
+ - 50kb watchface size (raw pictures and the json) will result in a uploadtime of about 10 seconds and you dont want it to take  longer, because of battery life and you dont want to wait untill tomorrow to see your glucose level.
  - That means less icons, less changing things (excluding numbers, and yes only numbers). 
  - Avoide watchfaces with gradients (when one color shifts to another). 
  - Remember we want to be able to easily read our Blood Glucose (BG), so we need to make some free space somewhere. I would calculate at least 1/3 of the watchface dedicated to all xdrip related information
