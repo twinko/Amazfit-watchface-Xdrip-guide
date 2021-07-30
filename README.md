@@ -27,8 +27,8 @@ I'll use the following tools. You will need all of them. All of the tools below 
 
 ## Look for a watchface you would like to use
 
-If you are not creating your own watchface, you can have alook for watchfaces here: https://amazfitwatchfaces.com/gtr/top?compatible=GTR_2
-Donwload the desired file. Please watch care about the watch the watchface was made for.
+If you are not creating your own watchface, you can have a look for watchfaces here: https://amazfitwatchfaces.com/gtr/top?compatible=GTR_2
+Donwload the desired file. Please care about the watch the watchface was made for.
 
 **Something very important:** 
 
