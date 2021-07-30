@@ -30,7 +30,8 @@ Donwload the desired file. Please watch care about the watch the watchface was m
 
 **Something very important:** 
 
- - The smaller the watchface the better. We'll come to this later but all pictures inlcuding the json file should'nt be bigger than 40kb. 
+ - The smaller the watchface the better. We'll come to this later but all pictures inlcuding the json file should'nt be bigger than 50kb. 
+ - 50kb watchface size (raw pictures and the json) will result in a uploadtime of about 10 seconds and you dont want it to take it longer, because of battery life and you dont want to wait untill tomorrow.
  - That means less icons, less changing things (excluding numbers, and yes only numbers). 
  - Avoide watchfaces with gradients (when one color shifts to another). 
  - Remember we want to be able to easily read our Blood Glucose (BG), so we need to make some free space somewhere. I would calculate at least 1/3 of the watchface dedicated to all xdrip related information
@@ -43,14 +44,16 @@ Donwload the desired file. Please watch care about the watch the watchface was m
 4. Extract the file
 5. Open (in my case) "AmazFit_Watchface_Editor_2"
 6. start "AmazFit_Watchface_Editor_2.exe"
-7. 
-
-
-
-
-
-To learn more about the watchface editor and its possibilities, have a look here: https://amazfitwatchfaces.com/forum/viewtopic.php?f=14&t=1571
+7. Buttom right, choose "Unpack compressed bin"
+8. Choose the watchface you downloaded earlier
+9. Now you need to get familiar with the WFE.
+10. I'll explane only the absolut basics. To learn more about the watchface editor and its possibilities, have a look here: https://amazfitwatchfaces.com/forum/viewtopic.php?f=14&t=1571
 Direct link to english translation:  https://translate.google.com/translate?hl=ru&sl=ru&tl=en&u=https%3A%2F%2Fowagner.ru%2Famazfitgtr%2Fwfcreator%2Fwatchfaces_creator_lesson%2F
+11. Go to the Edit tab and click throught the different options on the right side. 
+12. Choose "Layer order" to define things like the date order (dd-mm-yy or mm-dd-yy).
+
+Important hint:
+Our most important goal is to reduce size.
 
 ## Rename a file
 ## Rename a file
