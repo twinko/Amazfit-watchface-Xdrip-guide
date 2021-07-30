@@ -110,8 +110,8 @@ If your watchface has a plain color, edit it in the WFE. But you'll need to crea
 23. Choose "Open Powershell Window here"
 24. To pack your json you only need to navigate to tools folder and execute command like this  
 `main.exe --gtr2 47 --file config-file.json` where config-file.json is a location to your json.
-- i had some trouble with that and needed to add to whole path infront of the main.exe so it was something liek this:
-	- `C:\Users\twinko\Desktop\AmazFit_Watchface_Editor_2\AmazFit_Watchface_Editor_2\Tools\main.exe --gtr2 47 --file C:\Users\TwinkosTower\Desktop\AmazFit_Watchface_Editor_2\AmazFit_Watchface_Editor_2\Watch_face\gtr2-g7en-colormix03-346659-994092c337\Small\WF_2_V01.json`
+	- i had some trouble with that and needed to add to whole path infront of the main.exe so it was something liek this:
+		- `C:\Users\twinko\Desktop\AmazFit_Watchface_Editor_2\AmazFit_Watchface_Editor_2\Tools\main.exe --gtr2 47 --file C:\Users\TwinkosTower\Desktop\AmazFit_Watchface_Editor_2\AmazFit_Watchface_Editor_2\Watch_face\gtr2-g7en-colormix03-346659-994092c337\Small\WF_2_V01.json`
 25. As a result, you should receive a unpacked bin file. This file you would need to use in the xdrip. Xdrip will inject the required resource into this file, compress it and sent it to the watch.
 
 ## Putting everything together
