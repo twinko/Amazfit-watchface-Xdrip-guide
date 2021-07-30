@@ -20,7 +20,7 @@ I'll use the following tools. You will need all of them. All of the tools below 
 
 1. Windows OS
 2. **WFE**: [AmazFit WatchFace editor 2 for Windows](https://amazfitwatchfaces.com/forum/viewtopic.php?p=8392#p8392)
-3. **PS**: Photoshop (Version CS2 is available for free) I only have a german link, but you should be able to dowenload it for free, no need for scetchy downloads. https://www.chip.de/downloads/Photoshop-CS2-kostenlos-Vollversion_59762951.html
+3. **PS**: Photoshop (Version CS2 is available for free) https://archive.fo/255q5#selection-1663.0-1663.29
 4. **WF**: A watchface. (next chapter)
 
 ## Look for a watchface you would like to use
@@ -49,11 +49,26 @@ Donwload the desired file. Please watch care about the watch the watchface was m
 9. Now you need to get familiar with the WFE.
 10. I'll explane only the absolut basics. To learn more about the watchface editor and its possibilities, have a look here: https://amazfitwatchfaces.com/forum/viewtopic.php?f=14&t=1571
 Direct link to english translation:  https://translate.google.com/translate?hl=ru&sl=ru&tl=en&u=https%3A%2F%2Fowagner.ru%2Famazfitgtr%2Fwfcreator%2Fwatchfaces_creator_lesson%2F
-11. Go to the Edit tab and click throught the different options on the right side. 
+11. Go to the "Edit" tab and click throught the different options on the right side. 
 12. Choose "Layer order" to define things like the date order (dd-mm-yy or mm-dd-yy).
 
 Important hint:
-Our most important goal is to reduce size.
+Our most important goal is to reduce size. As written above we want to get below 50kb raw png files (inlcuding .json) .
+
+Best way to reduce size:
+- less pictures
+- less colors (makes smaller picture files)
+- use system font (a setting in the edit tab of WFE wherever it shows numbers.)
+
+13. When you are done with your changes, save the watchface ("Edit" tab, bottom in the middel "save Json")
+
+Things thet helped me a lot:
+- have a look at the unpacked pictures, delete all the ones you dont need.
+- You need to rename the files from 0001- xxxx You will have problems later if the files are not in a row. Its not possible to have one number in between missing. It should look like: 0001, 0002, ...... 0015.) You can use https://www.bulkrenameutility.co.uk/Download.php to bulk rename files.
+
+14. Go to the folder including the json and all needed files on your computer.
+
+
 
 ## Rename a file
 ## Rename a file
