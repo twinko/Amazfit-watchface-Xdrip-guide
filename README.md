@@ -7,7 +7,7 @@ If you have questions, feel free to open an issue. Please do your own research i
 
 Please remember this guide is only for **GTR 2e**! A lot of things are similiar for different watches especially the GTR 2 and GTS 2(e). If you using this guide to create watchfaces for different watches please send text snipets via issue to help this guide suite different watches aswell. 
 
-Main credit goes to **Artem Kovalenko** who made Amazfit GTR2, GTR2e, GTS2, GTS2e, GTR42, Bip, BIP S and GTR 47 possible! Moreover he helped me a lot to create my first own watchface.
+Main credit goes to **Artem Kovalenko** who made Amazfit GTR2, GTR2e, GTS2, GTS2e, GTR42, Bip, BIP S, GTR 47 and a lot of MiBands possible! Moreover he helped me a lot to create my first own watchface.
 #### Please support him here: https://www.patreon.com/xdrip_miband
 You can read more about his projects regarding xdrip here: https://bigdigital.home.blog/
 
