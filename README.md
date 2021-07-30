@@ -1,3 +1,7 @@
+still working on this guide. need to add some text and some pictures are missing. 
+
+
+
 # Welcome to the custom watchface tutorial / guide for Artems xdrip version for GRT 2e!
 
 This guide will lead you throught all steps needed to adapt a watchface to fit xdrip. I'm not a nativ speaker, so feel free to suggest changes.
