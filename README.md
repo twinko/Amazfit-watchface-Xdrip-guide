@@ -112,7 +112,7 @@ If your watchface has a plain color, edit it in the WFE. But you'll need to crea
 
 ## Editing the config.json
 
-The original config.json Artem created is linked here:
+The original config.json Artem created for the GTR 2e is linked here:
 
 xxxxxxxxxxxxxx
 
