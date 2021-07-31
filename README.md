@@ -1,17 +1,11 @@
-still working on this guide. need to add some text and some pictures are missing. 
-
-
-
 # Welcome to the custom watchface tutorial / guide for Artems xdrip version for GRT 2e!
 
 This guide will lead you throught all steps needed to adapt a watchface to fit xdrip. I'm not a nativ speaker, so feel free to suggest changes.
-This guide focus on adapting an existing watchface to our needs. If you are creative and skilled enough to create your own watchface, this tutorial will help you with the technical adaptions to use it in xdrip.
-
-If you have questions, feel free to open an issue. Please do your own research in advance, I'm also only a normal guy who does this in his freetime.
+This guide focus on adapting an existing watchface to our need. If you are creative and skilled enough to create your own watchface, this tutorial will help you with the technical adaptions to use it in xdrip.
 
 Please remember this guide is only for **GTR 2e**! A lot of things are similiar for different watches especially the GTR 2 and GTS 2(e). If you using this guide to create watchfaces for different watches please send text snipets via issue to help this guide suite different watches aswell. 
 
-Main credit goes to **Artem Kovalenko** who made Amazfit GTR2, GTR2e, GTS2, GTS2e, GTR42, Bip, BIP S, GTR 47 and a lot of MiBands possible! Moreover he helped me a lot to create my first own watchface.
+Main credit goes to **Artem Kovalenko** who made Amazfit GTR2, GTR2e, GTS2, GTS2e, GTR42, Bip, BIP S and GTR 47 possible! Moreover he helped me a lot to create my first own watchface.
 #### Please support him here: https://www.patreon.com/xdrip_miband
 You can read more about his projects regarding xdrip here: https://bigdigital.home.blog/
 
@@ -31,13 +25,13 @@ I'll use the following tools. You will need all of them. All of the tools below 
 
 ## Look for a watchface you would like to use
 
-If you are not creating your own watchface, you can have a look for watchfaces here: https://amazfitwatchfaces.com/gtr/top?compatible=GTR_2
-Donwload the desired file. Please care about the watch the watchface was made for.
+If you are not creating your own watchface, you can have alook for watchfaces here: https://amazfitwatchfaces.com/gtr/top?compatible=GTR_2
+Donwload the desired file. Please watch care about the watch the watchface was made for.
 
 **Something very important:** 
 
  - The smaller the watchface the better. We'll come to this later but all pictures inlcuding the json file should'nt be bigger than 50kb. 
- - 50kb watchface size (raw pictures and the json) will result in a uploadtime of about 10 seconds and you dont want it to take  longer, because of battery life and you dont want to wait untill tomorrow to see your glucose level.
+ - 50kb watchface size (raw pictures and the json) will result in a uploadtime of about 10 seconds and you dont want it to take it longer, because of battery life and you dont want to wait untill tomorrow.
  - That means less icons, less changing things (excluding numbers, and yes only numbers). 
  - Avoide watchfaces with gradients (when one color shifts to another). 
  - Remember we want to be able to easily read our Blood Glucose (BG), so we need to make some free space somewhere. I would calculate at least 1/3 of the watchface dedicated to all xdrip related information
@@ -84,30 +78,26 @@ Direct link to english translation:  https://translate.google.com/translate?hl=r
 If your watchface has a plain color, edit it in the WFE. But you'll need to create a picture, where all the xdrip date is placed on, so create a colormatching image in PS and skip the following part, where i describe how to cut the picture.
 
 17. Open 0001.png (your background image) in PS
-18. ddd
-19. ddd
-20. ddd
-21. ddd
-22. dd
-23. dddd
-24. d
-25. d
-26. d
-27. d
-28. d
-29. d
-30. d
-31. 
-32. Open every file, one after another with PS.
-33. Klick on Data--> Save for Web
-34. In the new Window you should choose the following on the right side:
+18. Go to Picture-->Mode and change it back to RGB
+19. Select the Rightangle-Tool by pressing "M" and choose the party where you want your xdrip data to be shown.
+->> Screenshot
+20. Rightclick inside and choose "Layer by cutting"
+21. Save this file as a PS-file (.psd)
+22. Hide the rest of the picture by clicking the eye icon on the right side (Layers) on Layer 1
+23. Press "c" to use the cutting tool
+24. Cut the picture down to the size of the visual part of your watchface.
+25. Press enter to confirm or the check in the top
+26. Now save this as .png
+27. Open every file, one after another with PS.
+28. Klick on Data--> Save for Web
+29. In the new Window you should choose the following on the right side:
 	- png-8
 	- You can tinker a little bit and delete specific colors, that will reduce the size of the image even more. You can see the new file size in the bottem right
 	- Files need to be png! 
 	- If you encounter a weird border around your images:
 		-  go picture, Mode and change it to "indexed colors" before saving it for web
-35. Save the file by overwriting (you made a backup earlier). I didnt found a way to do it to all files at once, let me know if you know how.
-36. Now open up WFE again, see if everthing still works out.
+30. Save the file by overwriting (you made a backup earlier). I didnt found a way to do it to all files at once, let me know if you know how.
+31. Now open up WFE again, see if everthing still works out.
 
 ## Preparing the final watchface
 
@@ -119,6 +109,14 @@ If your watchface has a plain color, edit it in the WFE. But you'll need to crea
 	- i had some trouble with that and needed to add to whole path infront of the main.exe so it was something liek this:
 		- `C:\Users\twinko\Desktop\AmazFit_Watchface_Editor_2\AmazFit_Watchface_Editor_2\Tools\main.exe --gtr2 47 --file C:\Users\TwinkosTower\Desktop\AmazFit_Watchface_Editor_2\AmazFit_Watchface_Editor_2\Watch_face\gtr2-g7en-colormix03-346659-994092c337\Small\WF_2_V01.json`
 25. As a result, you should receive a unpacked bin file. This file you would need to use in the xdrip. Xdrip will inject the required resource into this file, compress it and sent it to the watch.
+
+## Editing the config.json
+
+The original config.json Artem created is linked here:
+
+xxxxxxxxxxxxxx
+
+
 
 ## Putting everything together
 
