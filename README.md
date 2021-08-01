@@ -47,7 +47,7 @@ I'll use the following tools. You will need all of them. All of the tools below 
 2. **WFE**: [AmazFit WatchFace editor 2 for Windows](https://amazfitwatchfaces.com/forum/viewtopic.php?p=8392#p8392)
 3. **PS**: Photoshop (Version CS2 is available for free) https://archive.fo/255q5#selection-1663.0-1663.29
 5. **WF**: A watchface. (next chapter)
-6. Download the whole repository, we will need some files later from the "Guide" folder. You can downlaod this rpository b clicking on the gree "code" button on the top of this page and choose "Download ZIP"
+6. Download the whole repository, we will need some files later from the "Guide" folder. You can downlaod this repository by clicking on the green "code" button on the top of this page and choose "Download ZIP".
 
 ## Look for a watchface you would like to use
 
