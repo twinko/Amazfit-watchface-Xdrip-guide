@@ -1,6 +1,6 @@
 
 
-# Welcome to the custom watchface tutorial / guide for Artems xdrip version for GRT 2e!
+# Welcome to the custom watchface tutorial / guide for Artems xdrip version for GTR 2e!
 
 This guide is auto translated to:
 - [Chinese (CHN)](https://github.com/twinko/GTR-2-WF-Xdrip-EN/blob/main/Guide_translation/Readme-CHN.txt) 
