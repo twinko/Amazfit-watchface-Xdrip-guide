@@ -63,7 +63,7 @@ Direct link to english translation:  https://translate.google.com/translate?hl=r
 > - less colors (makes smaller picture files)
 > - use system font (a setting in the edit tab of WFE wherever it shows numbers.)
 
-13. When you are done with your changes, save the watchface ("Edit" tab, bottom in the middel "save Json")
+14. When you are done with your changes, save the watchface ("Edit" tab, bottom in the middel "save Json")
 
 > **Things thet helped me a lot:**
 > - picture 0001.png is always the background. Normally it'S neccessary to adapt the background to fit a glucose graph and al the needed data. Use Photoshop for that or a different program
@@ -72,8 +72,8 @@ Direct link to english translation:  https://translate.google.com/translate?hl=r
 > number in between missing. It should look like: 0001, 0002, ......
 > 0015.) You can use https://www.bulkrenameutility.co.uk/Download.php to bulk rename files.
 
-14. Go to the folder including the json and all needed files on your computer.
-15. Make a backup of th existing files and json
+15. Go to the folder including the json and all needed files on your computer.
+16. Make a backup of th existing files and json
 
 ## Editing your watchface background
 If your watchface has a plain color, edit it in the WFE. But you'll need to create a picture, where all the xdrip date is placed on, so create a colormatching image in PS and skip the following part, where i describe how to cut the picture.
@@ -87,29 +87,29 @@ If your watchface has a plain color, edit it in the WFE. But you'll need to crea
 21. Save this file as a PS-file (.psd)
 22. Hide the rest of the picture by clicking the eye icon on the right side (Layers) on Layer 1
 ![## **PS_cut_xdrip_part_02.PNG**](https://raw.githubusercontent.com/twinko/GTR-2-WF-Xdrip-EN/main/Guide/PS_cut_xdrip_part_02.PNG)
-24. Press "c" to use the cutting tool
-25. Cut the picture down to the size of the visual part of your watchface.
-26. Press enter to confirm or the check in the top
-27. Now save this as **my_image.png**
-28. Open up the saved psd file and do that same thing to rest of the watchface, so that we have the background image, split in 2 files.
+23. Press "c" to use the cutting tool
+24. Cut the picture down to the size of the visual part of your watchface.
+25. Press enter to confirm or the check in the top
+26. Now save this as **my_image.png**
+27. Open up the saved psd file and do that same thing to rest of the watchface, so that we have the background image, split in 2 files.
 
 
 ### Reducing image size
-27. Open every file, one after another with PS.
-28. Klick on Data--> Save for Web
-29. In the new Window you should choose the following on the right side:
+28. Open every file, one after another with PS.
+29. Klick on Data--> Save for Web
+30. In the new Window you should choose the following on the right side:
 	- png-8
 	- You can tinker a little bit and delete specific colors, that will reduce the size of the image even more. You can see the new file size in the bottem right
 	- Files need to be png! 
 	- If you encounter a weird border around your images:
 		-  go picture, Mode and change it to "indexed colors" before saving it for web
-30. Save the file by overwriting (you made a backup earlier). I didnt found a way to do it to all files at once, let me know if you know how.
+31. Save the file by overwriting (you made a backup earlier). I didnt found a way to do it to all files at once, let me know if you know how.
 
 ### Place my_image.png at the rigth place in the WF
-31. Now open up WFE again, you should notice, that we have a cutout in the middel of our watchface. (if not save your cutout image as background picture)
-32. navigate to Edit--> Activity -->Fat-burning-->Icon
-33. Copy the folowing picture located here: ## GTR-2-WF-Xdrip-EN/[Guide](https://github.com/twinko/GTR-2-WF-Xdrip-EN/tree/main/Guide)/**0099.png** it is only 1 pixel. We will replace it later with the my_image.png via code. But this saves us a lot of watchface size.
-34. Now you need to put it in top left corner of our cutout. To find the right coordinates, read the following topic below (How find the right coordinates in PS)
+32. Now open up WFE again, you should notice, that we have a cutout in the middel of our watchface. (if not save your cutout image as background picture)
+33. navigate to Edit--> Activity -->Fat-burning-->Icon
+34. Copy the folowing picture located here: ## GTR-2-WF-Xdrip-EN/[Guide](https://github.com/twinko/GTR-2-WF-Xdrip-EN/tree/main/Guide)/**0099.png** it is only 1 pixel. We will replace it later with the my_image.png via code. But this saves us a lot of watchface size.
+35. Now you need to put it in top left corner of our cutout. To find the right coordinates, read the following topic below (How find the right coordinates in PS)
 
 ## Preparing the final watchface
 What you should have so far in 1 folder:
@@ -118,16 +118,16 @@ What you should have so far in 1 folder:
 - my_image.png, maximum reduced in size
 --> we arew getting close to your final WF :)
 
-21. Navigate to ....\AmazFit_Watchface_Editor_2\Tools
-22. hold shift+rightclick in this folder
-23. Choose "Open Powershell Window here"
-24. To pack your json you only need to navigate to tools folder and execute command like this  
+36. Navigate to ....\AmazFit_Watchface_Editor_2\Tools
+37. hold shift+rightclick in this folder
+38. Choose "Open Powershell Window here"
+39. To pack your json you only need to navigate to tools folder and execute command like this  
 `main.exe --gtr2 47 --file config-file.json` where config-file.json is a location to your json.
 	- i had some trouble with that and needed to add to whole path infront of the main.exe so it was something liek this:
 		- `C:\Users\twinko\Desktop\AmazFit_Watchface_Editor_2\AmazFit_Watchface_Editor_2\Tools\main.exe --gtr2 47 --file C:\Users\TwinkosTower\Desktop\AmazFit_Watchface_Editor_2\AmazFit_Watchface_Editor_2\Watch_face\gtr2-g7en-colormix03-346659-994092c337\Small\WF_2_V01.json`
-25. As a result, you should receive a unpacked bin file. This file you would need to use in xdrip. Xdrip will inject the required resource into this file, compress it and sent it to the watch.
-26. rename the bin to: my_watchface.bin
-27. Create a new folder, putting in the following files:
+40. As a result, you should receive a unpacked bin file. This file you would need to use in xdrip. Xdrip will inject the required resource into this file, compress it and sent it to the watch.
+41. rename the bin to: my_watchface.bin
+42. Create a new folder, putting in the following files:
 - the my_watchface.bin we created
 - my_image.png
 
@@ -150,44 +150,43 @@ You downloaded the repository earlier, get the file from the Guide folder!
 	- so if it reads: x: 100 and text align is right, counting 100 pixel from the right side of the picture is where the element is placed
 
 ### How find the right coordinates in PS
-1. Open my_image.png in PS
-2. press F8, a little info windows will show up
-3. If you move your mouse over the picture, you will see the X and Y numbers move. 
+43. Open my_image.png in PS
+44. press F8, a little info windows will show up
+45. If you move your mouse over the picture, you will see the X and Y numbers move. 
 
 ### config.json explained
-1. open up the config.json with notepad
-2. You see litte cluster, which are pretty selfexplaining
-3. We only need to edit resource_to_replace, X, Y font_size perhaps bg_coloro of the graph
-4. 
+46. open up the config.json with notepad
+47. You see litte cluster, which are pretty selfexplaining
+48. We only need to edit resource_to_replace, X, Y font_size perhaps bg_color of the graph
 
 #### resource_to_replace
-1. put in the number of the image we choose for Fat-burning-->Icon (if your fiurst image is named 0001.png) reduce the number by one. The algorith starts counting with 0)
+49. put in the number of the image we choose for Fat-burning-->Icon (if your fiurst image is named 0001.png) reduce the number by one. The algorith starts counting with 0)
 
 #### "x" , "y" and "text_align": "right",
-1. as described in "How find the right coordinates in PS" you can find the right position to place your xdrip data. 
-2. Hint: The system font is "Segoe UI" so press t in PS to write text and put some defualt text in your my_image.png and look up the right coordinates. Remember *x and y are the bottom left of the first letter/number*. Do not save the my_image.png with the numbers you wrote down, this will be done later by Artems magic, we do this in PS to find out the right coordinates, noting else.
-3. Now change all coordinates to your needs.
-4. Attention: there are some values witch have the following line: `"text_align": "right",` for these we have a different rule for the coodinates. *Put in the Buttom right cordinate of the last letter/number.*
+50. as described in "How find the right coordinates in PS" you can find the right position to place your xdrip data. 
+51. Hint: The system font is "Segoe UI" so press t in PS to write text and put some defualt text in your my_image.png and look up the right coordinates. Remember *x and y are the bottom left of the first letter/number*. Do not save the my_image.png with the numbers you wrote down, this will be done later by Artems magic, we do this in PS to find out the right coordinates, noting else.
+52. Now change all coordinates to your needs.
+53. Attention: there are some values witch have the following line: `"text_align": "right",` for these we have a different rule for the coodinates. *Put in the Buttom right cordinate of the last letter/number.*
 
 #### "font_size"
-1. put in the same font size you choose in PS
+54. put in the same font size you choose in PS
 
 ### Save the config.json
-1. Save the config.json to the folder including th my_image.png and the my_watchface.bin (config.json not my_config.json!)
+55. Save the config.json to the folder including th my_image.png and the my_watchface.bin (config.json not my_config.json!)
 
 
 ## Uploading and testing it
 
-28. We should have a folder now with the following  files:
+56. We should have a folder now with the following  files:
 - config.json 
 - my_image.png 
 - my_watchface.bin  
-29. insert these 3 files into the xdrip folder on your smartphone 
+57. insert these 3 files into the xdrip folder on your smartphone 
 - Needed xdrip folder is found here:
 	- Internat storage/xdrip or
 	- root/storage/emulated/0/xdrip
-30. Enable custom watchface in xdrip settings.
-31. Done!
+58. Enable custom watchface in xdrip settings.
+59. Done!
 
 # Footnote
 
