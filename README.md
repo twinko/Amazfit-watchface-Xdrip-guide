@@ -74,7 +74,7 @@ Direct link to english translation:  https://translate.google.com/translate?hl=r
 14. Go to the folder including the json and all needed files on your computer.
 15. Make a backup of th existing files and json
 
-### Editing your watchface background (only needed if its not a plain color)
+## Editing your watchface background (only needed if its not a plain color)
 If your watchface has a plain color, edit it in the WFE. But you'll need to create a picture, where all the xdrip date is placed on, so create a colormatching image in PS and skip the following part, where i describe how to cut the picture.
 
 17. Open 0001.png (your background image) in PS
@@ -87,7 +87,9 @@ If your watchface has a plain color, edit it in the WFE. But you'll need to crea
 23. Press "c" to use the cutting tool
 24. Cut the picture down to the size of the visual part of your watchface.
 25. Press enter to confirm or the check in the top
-26. Now save this as .png
+26. Now save this as **my_image.png**
+
+### Reducing image size
 27. Open every file, one after another with PS.
 28. Klick on Data--> Save for Web
 29. In the new Window you should choose the following on the right side:
@@ -112,9 +114,20 @@ If your watchface has a plain color, edit it in the WFE. But you'll need to crea
 
 ## Editing the config.json
 
-The original config.json Artem created for the GTR 2e is linked here:
+The original config.json Artem created is linked here:
 
-xxxxxxxxxxxxxx
+General things to know:
+- this config.json is only related to my_image.png
+	- so if we talk about coordinates (x and y) its based on the my_image.png and its total size, not the whole watchface
+- read Artems post about alignment here: https://github.com/bigdigital/xDrip-miband/issues/5#issuecomment-878008056 
+- text_align: "right" 
+	- you need to count the pixels starting from the right side
+	- so if it reads: x: 100 and text align is right, counting 100 pixel from the right side of the picture is where the element is placed
+
+### How find the right coordinates
+1. Open my_image.png in PS
+2. press F8, a little info windows will show up
+3. If you move your mouse over the picture, you will see the X and Y numbers move. 
 
 
 
@@ -127,6 +140,6 @@ xxxxxxxxxxxxxx
 - the uncompressed .bin we created with Powershell --> my_watchface.bin
 28.  insert these 3 files into the xdrip folder on your smartphone 
 - Needed xdrip folder is found here:
--   Internat storage/xdrip or
--   root/storage/emulated/0/xdrip
+	- Internat storage/xdrip or
+	- root/storage/emulated/0/xdrip
 30. Enable custom watchface in xdrip settings.
