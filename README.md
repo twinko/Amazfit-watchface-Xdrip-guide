@@ -151,13 +151,13 @@ You downloaded the repository earlier, get the file from the Guide folder!
 
 
 
-**General things to know:**
-- this config.json is only related to my_image.png
-	- so if we talk about coordinates (x and y) its based on the my_image.png and its total size, not the whole watchface
-- read Artems post about alignment here: https://github.com/bigdigital/xDrip-miband/issues/5#issuecomment-878008056 
-- text_align: "right" 
-	- you need to count the pixels starting from the right side
-	- so if it reads: x: 100 and text align is right, counting 100 pixel from the right side of the picture is where the element is placed
+> **General things to know:**
+> - this config.json is only related to my_image.png
+> 	- so if we talk about coordinates (x and y) its based on the my_image.png and its total size, not the whole watchface
+> - read Artems post about alignment here: https://github.com/bigdigital/xDrip-miband/issues/5#issuecomment-878008056
+> - text_align: "right" 
+> 	- you need to count the pixels starting from the right side
+> 	- so if it reads: x: 100 and text align is right, counting 100 pixel from the right side of the picture is where the element is placed
 
 ### How find the right coordinates in PS
 43. Open my_image.png in PS
@@ -174,29 +174,36 @@ You downloaded the repository earlier, get the file from the Guide folder!
 
 #### "x" , "y" and "text_align": "right",
 50. as described in "How find the right coordinates in PS" you can find the right position to place your xdrip data. 
-51. Hint: The system font is "Segoe UI" so press t in PS to write text and put some defualt text in your my_image.png and look up the right coordinates. Remember *x and y are the bottom left of the first letter/number*. Do not save the my_image.png with the numbers you wrote down, this will be done later by Artems magic, we do this in PS to find out the right coordinates, noting else.
-52. Now change all coordinates to your needs.
-53. Attention: there are some values witch have the following line: `"text_align": "right",` for these we have a different rule for the coodinates. *Put in the Buttom right cordinate of the last letter/number.*
+
+> **Hint**: The system font is "Segoe UI" so press t in PS to write text and
+> put some defualt text in your my_image.png and look up the right
+> coordinates. Remember *x and y are the bottom left of the first
+> letter/number*. Do not save the my_image.png with the numbers you
+> wrote down, this will be done later by Artems magic, we do this in PS
+> to find out the right coordinates, noting else.
+
+51. Now change all coordinates to your needs.
+52. Attention: there are some values witch have the following line: `"text_align": "right",` for these we have a different rule for the coodinates. *Put in the Buttom right cordinate of the last letter/number.*
 
 #### "font_size"
-54. put in the same font size you choose in PS
+53. put in the same font size you choose in PS
 
 ### Save the config.json
-55. Save the config.json to the folder including th my_image.png and the my_watchface.bin (config.json not my_config.json!)
+54. Save the config.json to the folder including th my_image.png and the my_watchface.bin (config.json not my_config.json!)
 
 
 ## Uploading and testing it
 
-56. We should have a folder now with the following  files:
+55. We should have a folder now with the following  files:
 - config.json 
 - my_image.png 
 - my_watchface.bin  
-57. insert these 3 files into the xdrip folder on your smartphone 
+56. insert these 3 files into the xdrip folder on your smartphone 
 - Needed xdrip folder is found here:
 	- Internat storage/xdrip or
 	- root/storage/emulated/0/xdrip
-58. Enable custom watchface in xdrip settings.
-59. Done!
+57. Enable custom watchface in xdrip settings.
+58. Done!
 
 # Footnote
 
