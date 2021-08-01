@@ -1,5 +1,6 @@
 
 
+
 # Welcome to the custom watchface tutorial / guide for Artems xdrip version for GTR 2e!
 
 This guide is auto translated to:
@@ -135,7 +136,7 @@ If your watchface has a plain color, edit it in the WFE. But you'll need to crea
 32. Now open up WFE again, you should notice, that we have a cutout in the middel of our watchface. (if not save your cutout image as background picture)
 33. navigate to Edit--> Activity -->Fat-burning-->Icon
 34. Copy the folowing picture located here: ## GTR-2-WF-Xdrip-EN/[Guide](https://github.com/twinko/GTR-2-WF-Xdrip-EN/tree/main/Guide)/**0099.png** it is only 1 pixel. We will replace it later with the my_image.png via code. But this saves us a lot of watchface size.
-35. Now you need to put it in top left corner of our cutout. To find the right coordinates, read the following topic below (How find the right coordinates in PS)
+35. Now you need to put it in top left corner of our cutout. To find the right coordinates, read "1.3.1 How find the right coordinates in PS" below.
 
 <br>
 
@@ -145,6 +146,10 @@ What you should have so far in 1 folder:
 - all needed WF files, maximum reduced in size
 - my_image.png, maximum reduced in size
 --> we arew getting close to your final WF :)
+
+> **Important:** As mentiones before: The whole folder shouldnt be bigger than 50kb! If its bigger, you better go back some steps and get
+> rid of some pictures!
+
 
 36. Navigate to ....\AmazFit_Watchface_Editor_2\Tools
 37. hold shift+rightclick in this folder
