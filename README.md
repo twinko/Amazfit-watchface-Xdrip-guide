@@ -189,8 +189,11 @@ You downloaded the repository earlier, get the file from the Guide folder!
 30. Enable custom watchface in xdrip settings.
 31. Done!
 
+# Footnote
 
 Please open an issue here if you encounter problems. Please do your own research in advance, I'm also only a normal guy who does this in his freetime. 
 https://github.com/twinko/GTR-2-WF-Xdrip-EN/issues
 
 If you have suggestions on how to improve the guiode or make it suitable for other watchfaces as well, write an issue as well :)
+
+I hope this guide was helpfull :)
