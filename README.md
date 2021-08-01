@@ -1,3 +1,4 @@
+
 # Welcome to the custom watchface tutorial / guide for Artems xdrip version for GRT 2e!
 
 This guide will lead you throught all steps needed to adapt a watchface to fit xdrip. I'm not a nativ speaker, so feel free to suggest changes.
@@ -22,7 +23,8 @@ Moreover thanks to:
 
 In the folder [01-WF-MD225-Version3-xdrip-ready](https://github.com/twinko/GTR-2-WF-Xdrip-EN/tree/main/01-WF-MD225-Version3-xdrip-ready
 "01-WF-MD225-Version3-xdrip-ready") you'll find the final product of an custom watchface. I will link a different repository here with different watchface I created later. 
-If you created your own watchface please share it with others. We could collect them in one repo, feel free to contact me via issue.
+
+**If you created your own watchface please share it with others. We could collect them in one repo, feel free to contact me via issue.**
 
 
 ## Things you need
