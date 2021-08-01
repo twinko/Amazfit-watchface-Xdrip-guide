@@ -14,6 +14,16 @@ Moreover thanks to:
  - [**SashaCX75**](https://amazfitwatchfaces.com/forum/memberlist.php?mode=viewprofile&u=113690) helped creating the watchfaceditor 
  - all watchface creator
 
+
+> 
+
+### Example Watchface
+
+
+In the folder [01-WF-MD225-Version3-xdrip-ready](https://github.com/twinko/GTR-2-WF-Xdrip-EN/tree/main/01-WF-MD225-Version3-xdrip-ready
+"01-WF-MD225-Version3-xdrip-ready") you'll find the final product of an custom watchface. I will link a different repository here with different watchface I created later.
+
+
 ## Things you need
 
 I'll use the following tools. You will need all of them. All of the tools below are free for personl use.
