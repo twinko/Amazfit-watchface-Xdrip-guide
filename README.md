@@ -148,7 +148,7 @@ What you should have so far in 1 folder:
 --> we arew getting close to your final WF :)
 
 > **Important:** As mentiones before: The whole folder shouldnt be bigger than 50kb! If its bigger, you better go back some steps and get
-> rid of some pictures!
+> rid of some pictures or reduce the picture size even more!
 
 
 36. Navigate to ....\AmazFit_Watchface_Editor_2\Tools
