@@ -1,4 +1,5 @@
 
+
 # Welcome to the custom watchface tutorial / guide for Artems xdrip version for GRT 2e!
 
 This guide is auto translated to:
@@ -26,16 +27,17 @@ Moreover thanks to:
  - all watchface creator
 
 
-> 
+<br>
 
 ### Example Watchface
 
 
 In the folder [01-WF-MD225-Version3-xdrip-ready](https://github.com/twinko/GTR-2-WF-Xdrip-EN/tree/main/01-WF-MD225-Version3-xdrip-ready
-"01-WF-MD225-Version3-xdrip-ready") you'll find the final product of an custom watchface. Here I'll collect all GTR2e watchfaces: https://github.com/twinko/GTR2e-xdrip-watchface-collection . Please ask WF specific questions ofer there!
+"01-WF-MD225-Version3-xdrip-ready") you'll find the final product of an custom watchface. Here I'll collect all GTR2e watchfaces: https://github.com/twinko/GTR2e-xdrip-watchface-collection . Please ask WF specific questions over there!
 
 **If you created your own watchface please share it with others. We could collect them in one repo, feel free to contact me via issue.**
 
+<br>
 
 ## Things you need
 
@@ -59,6 +61,7 @@ Donwload the desired file. Please watch care about the watch the watchface was m
  - That means less icons, less changing things (excluding numbers, and yes only numbers). 
  - Avoide watchfaces with gradients (when one color shifts to another). 
  - Remember we want to be able to easily read our Blood Glucose (BG), so we need to make some free space somewhere. I would calculate at least 1/3 of the watchface dedicated to all xdrip related information
+<br>
 
 # 1. Guide / Tutorial
 
@@ -134,6 +137,8 @@ If your watchface has a plain color, edit it in the WFE. But you'll need to crea
 34. Copy the folowing picture located here: ## GTR-2-WF-Xdrip-EN/[Guide](https://github.com/twinko/GTR-2-WF-Xdrip-EN/tree/main/Guide)/**0099.png** it is only 1 pixel. We will replace it later with the my_image.png via code. But this saves us a lot of watchface size.
 35. Now you need to put it in top left corner of our cutout. To find the right coordinates, read the following topic below (How find the right coordinates in PS)
 
+<br>
+
 ## 1.2 Preparing the final watchface
 What you should have so far in 1 folder:
 - a json that you created with WFE
@@ -153,6 +158,8 @@ What you should have so far in 1 folder:
 42. Create a new folder, putting in the following files:
 - the my_watchface.bin we created
 - my_image.png
+
+<br>
 
 ## 1.3 Editing the config.json
 
@@ -204,6 +211,7 @@ You downloaded the repository earlier, get the file from the Guide folder!
 ### 1.3.3 Save the config.json
 54. Save the config.json to the folder including th my_image.png and the my_watchface.bin (config.json not my_config.json!)
 
+<br>
 
 ## 1.4 Uploading and testing it
 
@@ -218,6 +226,8 @@ You downloaded the repository earlier, get the file from the Guide folder!
 57. Enable custom watchface in xdrip settings.
 58. Done!
 
+<br>
+
 # 2. Footnote
 
 Please open an issue here if you encounter problems. Please do your own research in advance, I'm also only a normal guy who does this in his freetime. 
@@ -226,3 +236,7 @@ https://github.com/twinko/GTR-2-WF-Xdrip-EN/issues
 If you have suggestions on how to improve the guiode or make it suitable for other watchfaces as well, write an issue as well :)
 
 I hope this guide was helpfull :)
+
+I'll collect all GTR2e watchfaces: https://github.com/twinko/GTR2e-xdrip-watchface-collection . Please ask WF specific questions over there!
+
+**If you created your own watchface please share it with others. We could collect them in one repo, feel free to contact me via issue.**
