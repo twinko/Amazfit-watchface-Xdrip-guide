@@ -8,6 +8,7 @@ This guide is auto translated to:
 - [French (FR)](https://github.com/twinko/GTR-2-WF-Xdrip-EN/blob/main/Guide_translation/Readme-FR.txt)
 - [Italian (IT)](https://github.com/twinko/GTR-2-WF-Xdrip-EN/blob/main/Guide_translation/Readme-IT.txt)
 - [Russian (RU)](https://github.com/twinko/GTR-2-WF-Xdrip-EN/blob/main/Guide_translation/Readme-RU.txt)
+
 I only speak DE and EN, so please if you get in contact, do it in english!
 
 This guide will lead you throught all steps needed to adapt a watchface to fit xdrip. I'm not a nativ speaker, so feel free to suggest changes.
