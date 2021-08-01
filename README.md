@@ -21,7 +21,8 @@ I'll use the following tools. You will need all of them. All of the tools below 
 1. Windows OS
 2. **WFE**: [AmazFit WatchFace editor 2 for Windows](https://amazfitwatchfaces.com/forum/viewtopic.php?p=8392#p8392)
 3. **PS**: Photoshop (Version CS2 is available for free) https://archive.fo/255q5#selection-1663.0-1663.29
-4. **WF**: A watchface. (next chapter)
+5. **WF**: A watchface. (next chapter)
+6. Download the whole repository, we will need some files later from the "Guide" folder. You can downlaod this rpository b clicking on the gree "code" button on the top of this page and choose "Download ZIP"
 
 ## Look for a watchface you would like to use
 
@@ -79,18 +80,18 @@ If your watchface has a plain color, edit it in the WFE. But you'll need to crea
 
 17. Open 0001.png (your background image) in PS
 18. Go to Picture-->Mode and change it back to RGB
-19. Select the Rightangle-Tool by pressing "M" and choose the party where you want your xdrip data to be shown.
-
-# ->> Screenshot
+19. Select the Rightangle-Tool by pressing "M" and choose the part where you want your xdrip data to be shown.
+![##**PS_cut_xdrip_part_01.PNG**](https://raw.githubusercontent.com/twinko/GTR-2-WF-Xdrip-EN/main/Guide/PS_cut_xdrip_part_01.PNG)
 
 20. Rightclick inside and choose "Layer by cutting"
 21. Save this file as a PS-file (.psd)
 22. Hide the rest of the picture by clicking the eye icon on the right side (Layers) on Layer 1
-23. Press "c" to use the cutting tool
-24. Cut the picture down to the size of the visual part of your watchface.
-25. Press enter to confirm or the check in the top
-26. Now save this as **my_image.png**
-27. Open up the saved psd file and do that same thing to rest of the watchface, so that we have the background image, split in 2 files.
+![## **PS_cut_xdrip_part_02.PNG**](https://raw.githubusercontent.com/twinko/GTR-2-WF-Xdrip-EN/main/Guide/PS_cut_xdrip_part_02.PNG)
+24. Press "c" to use the cutting tool
+25. Cut the picture down to the size of the visual part of your watchface.
+26. Press enter to confirm or the check in the top
+27. Now save this as **my_image.png**
+28. Open up the saved psd file and do that same thing to rest of the watchface, so that we have the background image, split in 2 files.
 
 
 ### Reducing image size
@@ -107,7 +108,7 @@ If your watchface has a plain color, edit it in the WFE. But you'll need to crea
 ### Place my_image.png at the rigth place in the WF
 31. Now open up WFE again, you should notice, that we have a cutout in the middel of our watchface. (if not save your cutout image as background picture)
 32. navigate to Edit--> Activity -->Fat-burning-->Icon
-33. Download the folowing picture (XXXXXXXXXXXXXXXXXXXXXXXXX) it is only 1 pixel. We will replace it later with the my_image.png via code. But this saves us a lot of watchface size.
+33. Copy the folowing picture located here: ## GTR-2-WF-Xdrip-EN/[Guide](https://github.com/twinko/GTR-2-WF-Xdrip-EN/tree/main/Guide)/**0099.png** it is only 1 pixel. We will replace it later with the my_image.png via code. But this saves us a lot of watchface size.
 34. Now you need to put it in top left corner of our cutout. To find the right coordinates, read the following topic below (How find the right coordinates in PS)
 
 ## Preparing the final watchface
@@ -134,7 +135,11 @@ What you should have so far in 1 folder:
 
 The config.json is defining, where on the my_image.png what xdrip data is shown and how. Its different to the json created by the WFE, don't mix them up!
 
-# The original config.json Artem created is linked here:
+The original config.json Artem created is linked here:
+https://github.com/twinko/GTR-2-WF-Xdrip-EN/blob/main/Guide/config.json
+You downloaded the repository earlier, get the file from the Guide folder!
+
+
 
 **General things to know:**
 - this config.json is only related to my_image.png
