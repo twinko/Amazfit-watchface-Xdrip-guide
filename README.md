@@ -106,7 +106,7 @@ Direct link to english translation:  https://translate.google.com/translate?hl=r
 If your watchface has a plain color, edit it in the WFE. But you'll need to create a picture, where all the xdrip date is placed on, so create a colormatching image in PS and skip the following part, where i describe how to cut the picture.
 
 17. Open 0001.png (your background image) in PS
-18. Go to Picture-->Mode and change it back to RGB
+18. Go to Picture-->Mode and change it to RGB (already should be RGB).
 19. Select the Rightangle-Tool by pressing "M" and choose the part where you want your xdrip data to be shown.
 ![##**PS_cut_xdrip_part_01.PNG**](https://raw.githubusercontent.com/twinko/GTR-2-WF-Xdrip-EN/main/Guide/PS_cut_xdrip_part_01.PNG)
 
