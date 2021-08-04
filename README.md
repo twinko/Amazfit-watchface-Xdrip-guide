@@ -111,14 +111,14 @@ If your watchface has a plain color, edit it in the WFE. But you'll need to crea
 ![##**PS_cut_xdrip_part_01.PNG**](https://raw.githubusercontent.com/twinko/GTR-2-WF-Xdrip-EN/main/Guide/PS_cut_xdrip_part_01.PNG)
 
 20. Rightclick inside and choose "Layer by cutting"
-21. Save this file as a PS-file (.psd)
+21. Now save the file as a PS-file (.psd)
 22. Hide the rest of the picture by clicking the eye icon on the right side (Layers) on Layer 1
 ![## **PS_cut_xdrip_part_02.PNG**](https://raw.githubusercontent.com/twinko/GTR-2-WF-Xdrip-EN/main/Guide/PS_cut_xdrip_part_02.PNG)
 23. Press "c" to use the cutting tool
 24. Cut the picture down to the size of the visual part of your watchface.
 25. Press enter to confirm or the check in the top
 26. Now save this as **my_image.png**
-27. Open up the saved psd file and do that same thing to rest of the watchface, so that we have the background image, split in 2 files.
+27. Open up the saved psd file and do the same thing to rest of the watchface (the part we hide in the first place. by now hiding the my_image.png-part), so that we have the background image, split in 2 files.
 
 
 ### 1.1.1 Reducing image size
