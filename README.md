@@ -42,7 +42,7 @@ In the folder [01-WF-MD225-Version3-xdrip-ready](https://github.com/twinko/GTR-2
 
 ## Things you need
 
-I'll use the following tools. You will need all of them. All of the tools below are free for personl use.
+I'll use the following tools. You will need all of them. All of the tools below are free for personal use.
 
 1. Windows OS
 2. **WFE**: [AmazFit WatchFace editor 2 for Windows](https://amazfitwatchfaces.com/forum/viewtopic.php?p=8392#p8392)
@@ -52,13 +52,13 @@ I'll use the following tools. You will need all of them. All of the tools below 
 
 ## Look for a watchface you would like to use
 
-If you are not creating your own watchface, you can have alook for watchfaces here: https://amazfitwatchfaces.com/gtr/top?compatible=GTR_2
-Donwload the desired file. Please watch care about the watch the watchface was made for.
+If you are not creating your own watchface, you can have a look for watchfaces here: https://amazfitwatchfaces.com/gtr/top?compatible=GTR_2
+Donwload the desired file. Please care about the watch the watchface was made for!
 
 **Something very important:** 
 
  - The smaller the watchface the better. We'll come to this later but all pictures inlcuding the json file should'nt be bigger than 50kb. 
- - 50kb watchface size (raw pictures and the json) will result in a uploadtime of about 10 seconds and you dont want it to take it longer, because of battery life and you dont want to wait untill tomorrow.
+ - 50kb watchface size (raw pictures and the json) will result in a uploadtime of about 10 seconds and you dont want it to take longer, because of battery life and you dont want to wait until tomorrow to see your bloodsugar.
  - That means less icons, less changing things (excluding numbers, and yes only numbers). 
  - Avoide watchfaces with gradients (when one color shifts to another). 
  - Remember we want to be able to easily read our Blood Glucose (BG), so we need to make some free space somewhere. I would calculate at least 1/3 of the watchface dedicated to all xdrip related information
@@ -67,7 +67,7 @@ Donwload the desired file. Please watch care about the watch the watchface was m
 # 1. Guide / Tutorial
 
 1. Download the whole folder of the latest version of the WFE (watchface editor), linked above. 
-2. You can find the "download" buttom in the top right, we need the whole folder! 
+2. As soon as yo got forwarded to Dropbox, to download the WFE, you can find the "download" buttom in the top right, we need the whole folder! 
 3. After clicking download choose "direct download". It will download a file like "AmazFit_Watchface_Editor_2_v5.1.zip".
 4. Extract the file
 5. Open (in my case) "AmazFit_Watchface_Editor_2"
@@ -88,12 +88,12 @@ Direct link to english translation:  https://translate.google.com/translate?hl=r
 > Best way to reduce size:
 > - less pictures
 > - less colors (makes smaller picture files)
-> - use system font (a setting in the edit tab of WFE wherever it shows numbers.)
+> - use system font (a setting in the edit tab of WFE) wherever it shows numbers.
 
 14. When you are done with your changes, save the watchface ("Edit" tab, bottom in the middel "save Json")
 
 > **Things thet helped me a lot:**
-> - picture 0001.png is always the background. Normally it'S neccessary to adapt the background to fit a glucose graph and al the needed data. Use Photoshop for that or a different program
+> - picture 0001.png is always the background. Normally it's neccessary to adapt the background to fit a glucose graph and all the needed data. Use Photoshop for that or a different program
 > - have a look at the unpacked pictures, delete all the ones you dont need.
 > - You need to rename the files from 0001- xxxx You will have problems later if the files are not in a row. Its not possible to have one
 > number in between missing. It should look like: 0001, 0002, ......
