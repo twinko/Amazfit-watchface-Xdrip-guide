@@ -1,6 +1,7 @@
 
 
 
+
 # Welcome to the custom watchface tutorial / guide for Artems xdrip version for GTR 2e!
 
 This guide is auto translated to:
@@ -132,11 +133,11 @@ If your watchface has a plain color, edit it in the WFE. But you'll need to crea
 		-  go picture, Mode and change it to "indexed colors" before saving it for web
 31. Save the file by overwriting (you made a backup earlier). I didnt found a way to do it to all files at once, let me know if you know how.
 
-### 1.1.2 Place my_image.png at the rigth place in the WF
-32. Now open up WFE again, you should notice, that we have a cutout in the middel of our watchface. (if not save your cutout image as background picture)
+### 1.1.2 Place my_image.png at the right place in the WF
+32. Now open up WFE again, you should notice, that we have a cutout in the middel of our watchface. (if not save your cutout image as background picture, 0001.png)
 33. navigate to Edit--> Activity -->Fat-burning-->Icon
 34. Copy the folowing picture located here: ## GTR-2-WF-Xdrip-EN/[Guide](https://github.com/twinko/GTR-2-WF-Xdrip-EN/tree/main/Guide)/**0099.png** it is only 1 pixel. We will replace it later with the my_image.png via code. But this saves us a lot of watchface size.
-35. Now you need to put it in top left corner of our cutout. To find the right coordinates, read "1.3.1 How find the right coordinates in PS" below.
+35. Now you need to put it in top left corner of our cutout and save the json. To find the right coordinates, read "1.3.1 How find the right coordinates in PS" below.
 
 <br>
 
@@ -145,7 +146,7 @@ What you should have so far in 1 folder:
 - a json that you created with WFE
 - all needed WF files, maximum reduced in size
 - my_image.png, maximum reduced in size
---> we arew getting close to your final WF :)
+--> we are getting close to your final WF :)
 
 > **Important:** As mentiones before: The whole folder shouldnt be bigger than 50kb! If its bigger, you better go back some steps and get
 > rid of some pictures or reduce the picture size even more!
@@ -155,12 +156,12 @@ What you should have so far in 1 folder:
 37. hold shift+rightclick in this folder
 38. Choose "Open Powershell Window here"
 39. To pack your json you only need to navigate to tools folder and execute command like this  
-`main.exe --gtr2 47 --file config-file.json` where config-file.json is a location to your json.
-	- i had some trouble with that and needed to add to whole path infront of the main.exe so it was something liek this:
-		- `C:\Users\twinko\Desktop\AmazFit_Watchface_Editor_2\AmazFit_Watchface_Editor_2\Tools\main.exe --gtr2 47 --file C:\Users\TwinkosTower\Desktop\AmazFit_Watchface_Editor_2\AmazFit_Watchface_Editor_2\Watch_face\gtr2-g7en-colormix03-346659-994092c337\Small\WF_2_V01.json`
-40. As a result, you should receive a unpacked bin file. This file you would need to use in xdrip. Xdrip will inject the required resource into this file, compress it and sent it to the watch.
-41. rename the bin to: my_watchface.bin
-42. Create a new folder, putting in the following files:
+`main.exe --gtr2 47 --file config-file.json` where config-file.json is written, the location to your json is needed.
+	- i had some trouble with that and needed to add to whole path infront of the main.exe so it was something like this:
+		- `C:\Users\twinko\Desktop\AmazFit_Watchface_Editor_2\Tools\main.exe --gtr2 47 --file C:\Users\twinko\Desktop\AmazFit_Watchface_Editor_2\Watch_face\gtr2-g7en-colormix03-346659-994092c337\Small\WF_2_V01.json`
+40. As a result, you should receive a unpacked bin file. This file will be used bye xdrip. Xdrip will inject the required resource into this file, compress it and sent it to the watch.
+41. rename the .bin to: my_watchface.bin
+42. Create a new folder, putting ina copy of the following files:
 - the my_watchface.bin we created
 - my_image.png
 
@@ -182,12 +183,12 @@ You downloaded the repository earlier, get the file from the Guide folder!
 > - read Artems post about alignment here: https://github.com/bigdigital/xDrip-miband/issues/5#issuecomment-878008056
 > - text_align: "right" 
 > 	- you need to count the pixels starting from the right side
-> 	- so if it reads: x: 100 and text align is right, counting 100 pixel from the right side of the picture is where the element is placed
+> 	- so if it reads: x: 100 and text align is right, counting 100 pixel from the right side of the picture, thats where the element is placed
 
 ### 1.3.1 How find the right coordinates in PS
 43. Open my_image.png in PS
 44. press F8, a little info windows will show up
-45. If you move your mouse over the picture, you will see the X and Y numbers move. 
+45. If you move your mouse over the picture, you will see the X and Y numbers in that little window. 
 
 ### 1.3.2 config.json explained
 46. open up the config.json with notepad
@@ -195,12 +196,12 @@ You downloaded the repository earlier, get the file from the Guide folder!
 48. We only need to edit resource_to_replace, X, Y font_size perhaps bg_color of the graph
 
 #### 1.3.2.1 resource_to_replace
-49. put in the number of the image we choose for Fat-burning-->Icon (if your fiurst image is named 0001.png) reduce the number by one. The algorith starts counting with 0)
+49. put in the number of the image we choose for Fat-burning-->Icon (if your first image is named 0001.png) reduce the number by one. The algorith starts counting with 0 and his 0 iem will be our 0001.png)
 
 #### 1.3.2.2 "x" , "y" and "text_align": "right",
 50. as described in "How find the right coordinates in PS" you can find the right position to place your xdrip data. 
 
-> **Hint**: The system font is "Segoe UI" so press t in PS to write text and
+> **Hint**: The system font is "Segoe UI" so press "t" in PS to write text and
 > put some defualt text in your my_image.png and look up the right
 > coordinates. Remember *x and y are the bottom left of the first
 > letter/number*. Do not save the my_image.png with the numbers you
@@ -213,23 +214,34 @@ You downloaded the repository earlier, get the file from the Guide folder!
 #### 1.3.2.3 "font_size"
 53. put in the same font size you choose in PS
 
+#### 1.3.2.4 "bg_color" and colors in general
+
+ 54. Colors are defined in HEX, Just use google to find the right color:
+    https://www.google.com/search?client=firefox-b-d&q=color+picker 
+55. If you want for example the background to be transparent use:
+
+-      "graph": {
+        "bg_color": "#00000000",
+
+
+
 ### 1.3.3 Save the config.json
-54. Save the config.json to the folder including th my_image.png and the my_watchface.bin (config.json not my_config.json!)
+56. Save the config.json to the folder including the my_image.png and the my_watchface.bin (config.json not my_config.json!)
 
 <br>
 
 ## 1.4 Uploading and testing it
 
-55. We should have a folder now with the following  files:
+57. We should have a folder now with the following  files:
 - config.json 
 - my_image.png 
 - my_watchface.bin  
-56. insert these 3 files into the xdrip folder on your smartphone 
+58. insert these 3 files into the xdrip folder on your smartphone 
 - Needed xdrip folder is found here:
 	- Internat storage/xdrip or
 	- root/storage/emulated/0/xdrip
-57. Enable custom watchface in xdrip settings.
-58. Done!
+59. Enable custom watchface in xdrip settings.
+60. Done!
 
 <br>
 
@@ -238,10 +250,10 @@ You downloaded the repository earlier, get the file from the Guide folder!
 Please open an issue here if you encounter problems. Please do your own research in advance, I'm also only a normal guy who does this in his freetime. 
 https://github.com/twinko/GTR-2-WF-Xdrip-EN/issues
 
-If you have suggestions on how to improve the guiode or make it suitable for other watchfaces as well, write an issue as well :)
+If you have suggestions on how to improve the guide or make it suitable for other watchfaces as well, please write an issue with advice or soe text snippets :)
 
 I hope this guide was helpfull :)
 
-I'll collect all GTR2e watchfaces: https://github.com/twinko/GTR2e-xdrip-watchface-collection . Please ask WF specific questions over there!
+I'll collect all GTR2e watchfaces here: https://github.com/twinko/GTR2e-xdrip-watchface-collection . Please ask WF specific questions over there!
 
-**If you created your own watchface please share it with others. We could collect them in one repo, feel free to contact me via issue.**
+**If you created your own watchface or adapt one by yourself, please share it with others. We could collect them [here](https://github.com/twinko/GTR2e-xdrip-watchface-collection) in one repo, to make it easy for others! Feel free to contact me via issue.**
