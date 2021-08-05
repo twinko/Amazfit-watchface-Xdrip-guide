@@ -2,6 +2,7 @@
 
 
 
+
 # Welcome to the custom watchface tutorial / guide for Artems xdrip version for GTR 2e!
 
 This guide is auto translated to:
@@ -193,7 +194,7 @@ You downloaded the repository earlier, get the file from the Guide folder!
 ### 1.3.2 config.json explained
 46. open up the config.json with notepad
 47. You see litte cluster, which are pretty selfexplaining
-48. We only need to edit resource_to_replace, X, Y font_size perhaps bg_color of the graph
+48. We only need to edit resource_to_replace, X, Y font_size perhaps bg_color of the graph and arrows
 
 #### 1.3.2.1 resource_to_replace
 49. put in the number of the image we choose for Fat-burning-->Icon (if your first image is named 0001.png) reduce the number by one. The algorith starts counting with 0 and his 0 iem will be our 0001.png)
@@ -224,24 +225,42 @@ You downloaded the repository earlier, get the file from the Guide folder!
         "bg_color": "#00000000",
 
 
+#### 1.3.2.5 changing arrows
+
+ 56. It is possible to use custom arrows. Only use that if you really need it, this will harm the uploadtime, if your arrows are bigger than the original ones.
+ 57.  If you want to use it, change the following parmeter sind the third line
+	from:  "use_custom_arrows": false,
+	to "use_custom_arrows": true, 
+ 58. So it should look somtehing like this if we use the deault config.json
+ 59. upload arrows to **xdrip/arrows** folder . The files should be named like original files located under
+    src\main\assets\miband_watchface_parts\arrows
+    
+    DoubleDown.png 
+    DoubleUp.png 
+    Flat.png 
+    FortyFiveDown.png 
+    FortyFiveUp.png
+    SingleDown.png 
+    SingleUp.png
+
 
 ### 1.3.3 Save the config.json
-56. Save the config.json to the folder including the my_image.png and the my_watchface.bin (config.json not my_config.json!)
+60. Save the config.json to the folder including the my_image.png and the my_watchface.bin (config.json not my_config.json!)
 
 <br>
 
 ## 1.4 Uploading and testing it
 
-57. We should have a folder now with the following  files:
+61. We should have a folder now with the following  files:
 - config.json 
 - my_image.png 
 - my_watchface.bin  
-58. insert these 3 files into the xdrip folder on your smartphone 
+62. insert these 3 files into the xdrip folder on your smartphone 
 - Needed xdrip folder is found here:
 	- Internat storage/xdrip or
 	- root/storage/emulated/0/xdrip
-59. Enable custom watchface in xdrip settings.
-60. Done!
+63. Enable custom watchface in xdrip settings.
+64. Done!
 
 <br>
 
