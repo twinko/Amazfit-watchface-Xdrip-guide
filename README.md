@@ -56,8 +56,11 @@ I'll use the following tools. You will need all of them. All of the tools below 
 
 If you are not creating your own watchface, you can have a look for watchfaces here: 
 - https://github.com/twinko/GTR2e-xdrip-watchface-collection  (wacthfaces already adapted to xdrip)
-- https://amazfitwatchfaces.com/gtr/top?compatible=GTR_2 (huge watchface collection, will need xdrip adaption, as desribed in this guide)
+- https://amazfitwatchfaces.com/gtr/top?compatible=GTR_2 (huge watchface collection, will need xdrip adaption, as described in this guide)
+
 Donwload the desired file. Please care about the watch the watchface was made for!
+
+<br>
 
 **Something very important:** 
 
