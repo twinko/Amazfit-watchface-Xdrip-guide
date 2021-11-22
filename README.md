@@ -35,8 +35,8 @@ Moreover thanks to:
 ### Example Watchface
 
 
-In the folder [01-WF-MD225-Version3-xdrip-ready](https://github.com/twinko/GTR-2-WF-Xdrip-EN/tree/main/01-WF-MD225-Version3-xdrip-ready
-"01-WF-MD225-Version3-xdrip-ready") you'll find the final product of an custom watchface. Here I'll collect all GTR2e watchfaces: https://github.com/twinko/GTR2e-xdrip-watchface-collection . Please ask WF specific questions over there!
+Here I'll collect all GTR2e watchfaces: https://github.com/twinko/GTR2e-xdrip-watchface-collection . You can choose these to have a working example to tinker around. I recommend watchface 4- 13, because thes watchfaces are very simple and doesnt require a lot of photoshop skills.
+Please ask WF specific questions over there!
 
 **If you created your own watchface please share it with others. We could collect them in one repo, feel free to contact me via issue.**
 
