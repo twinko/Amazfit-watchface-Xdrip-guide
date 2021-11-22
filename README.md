@@ -35,7 +35,7 @@ Moreover thanks to:
 ### Example Watchface
 
 
-Here we'll collect all xdrip optimized watchfaces: https://github.com/twinko/GTR2e-xdrip-watchface-collection . You can choose these to have a working example to tinker around. I recommend watchface 4- 13, because thes watchfaces are very simple and doesnt require a lot of photoshop skills.
+Here we'll collect all xdrip optimized watchfaces: https://github.com/twinko/GTR2e-xdrip-watchface-collection . You can choose these to have a working example to tinker around. I recommend watchface 4- 13, because these watchfaces are very simple and doesnt require (a lot of) photoshop skills.
 Please ask WF specific questions over there!
 
 **If you created your own watchface please share it with others. We could collect them in one repo, feel free to contact me via issue.**
@@ -54,7 +54,9 @@ I'll use the following tools. You will need all of them. All of the tools below 
 
 ## Look for a watchface you would like to use
 
-If you are not creating your own watchface, you can have a look for watchfaces here: https://amazfitwatchfaces.com/gtr/top?compatible=GTR_2
+If you are not creating your own watchface, you can have a look for watchfaces here: 
+- https://github.com/twinko/GTR2e-xdrip-watchface-collection  (wacthfaces already adapted to xdrip)
+- https://amazfitwatchfaces.com/gtr/top?compatible=GTR_2 (huge watchface collection, will need xdrip adaption, as desribed in this guide)
 Donwload the desired file. Please care about the watch the watchface was made for!
 
 **Something very important:** 
