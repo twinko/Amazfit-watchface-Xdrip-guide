@@ -200,7 +200,8 @@ You downloaded the repository earlier, get the file from the Guide folder!
 46. open up the config.json with notepad
 47. You see litte cluster, which are pretty selfexplaining
 48. We only need to edit resource_to_replace, X, Y font_size perhaps bg_color of the graph and arrows
---> detailed explanation here: https://bigdigital.home.blog/2022/09/04/custom-watchface-config-json-data-structure/#text_settings_object
+<br>
+--> detailed explanation here: https://bigdigital.home.blog/2022/09/04/custom-watchface-config-json-data-structure/
 
 #### 1.3.2.1 resource_to_replace
 49. put in the number of the image we choose for Fat-burning-->Icon (if your first image is named 0001.png) reduce the number by one. The algorith starts counting with 0 and his 0 iem will be our 0001.png)
