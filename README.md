@@ -264,7 +264,7 @@ You downloaded the repository earlier, get the file from the Guide folder!
 - my_watchface.bin  
 62. insert these 3 files into the xdrip folder on your smartphone 
 - Needed xdrip folder is found here:
-	- Internat storage/xdrip or
+	- Internal storage/xdrip or
 	- root/storage/emulated/0/xdrip
 63. Enable custom watchface in xdrip settings.
 64. Done!
