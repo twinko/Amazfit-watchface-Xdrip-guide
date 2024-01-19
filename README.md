@@ -6,12 +6,12 @@
 # Welcome to the custom watchface tutorial / guide for Artems xdrip version for GTR 2e!
 
 This guide is auto translated to:
-- [Chinese (CHN)](https://github.com/twinko/GTR-2-WF-Xdrip-EN/blob/main/Guide_translation/Readme-CHN.txt) 
-- [German (DE)](https://github.com/twinko/GTR-2-WF-Xdrip-EN/blob/main/Guide_translation/Readme-DE.txt)
-- [Spanish (ES)](https://github.com/twinko/GTR-2-WF-Xdrip-EN/blob/main/Guide_translation/Readme-ES.txt)
-- [French (FR)](https://github.com/twinko/GTR-2-WF-Xdrip-EN/blob/main/Guide_translation/Readme-FR.txt)
-- [Italian (IT)](https://github.com/twinko/GTR-2-WF-Xdrip-EN/blob/main/Guide_translation/Readme-IT.txt)
-- [Russian (RU)](https://github.com/twinko/GTR-2-WF-Xdrip-EN/blob/main/Guide_translation/Readme-RU.txt)
+- [Chinese (CHN)](https://github.com/twinko/GTR-2-WF-Xdrip-EN/blob/main/Guide_translation/Readme-CHN.md) 
+- [German (DE)](https://github.com/twinko/GTR-2-WF-Xdrip-EN/blob/main/Guide_translation/Readme-DE.md)
+- [Spanish (ES)](https://github.com/twinko/GTR-2-WF-Xdrip-EN/blob/main/Guide_translation/Readme-ES.md)
+- [French (FR)](https://github.com/twinko/GTR-2-WF-Xdrip-EN/blob/main/Guide_translation/Readme-FR.md)
+- [Italian (IT)](https://github.com/twinko/GTR-2-WF-Xdrip-EN/blob/main/Guide_translation/Readme-IT.md)
+- [Russian (RU)](https://github.com/twinko/GTR-2-WF-Xdrip-EN/blob/main/Guide_translation/Readme-RU.md)
 
 I only speak DE and EN, so please if you get in contact, do it in english! Moreover i wont update other languages than english. Use deepl.com to translate text if you have problems understanding it. The translation was made on the 1. August 2021
 
